@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>NOTEBRIDGE</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div class="navbar-wrapper">
+  <div class="navbar-box">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+
+      
+        <a class="navbar-brand" href="#">
+          <i class="bi bi-book"></i> NOTEBRIDGE
+        </a>
+
+      
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        <div class="collapse navbar-collapse justify-content-between" id="navContent">
+
+          <ul class="navbar-nav mx-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#heroCarousel">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Course Types</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#btech-section">B.TECH Notes</a></li>
+                <li><a class="dropdown-item" href="#bba-section">BBA Notes</a></li>
+                <li><a class="dropdown-item" href="#bca-section">BCA Notes</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Semester</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#btech-section">Semester 1</a></li>
+                <li><a class="dropdown-item" href="#btech-section">Semester 2</a></li>
+                <li><a class="dropdown-item" href="#btech-section">Semester 3</a></li>
+                <li><a class="dropdown-item" href="#btech-section">Semester 4</a></li>
+                <li><a class="dropdown-item" href="#btech-section">Semester 5</a></li>
+                <li><a class="dropdown-item" href="#btech-section">Semester 6</a></li>
+                <li><a class="dropdown-item" href="#btech-section">Semester 7</a></li>
+                <li><a class="dropdown-item" href="#btech-section">Semester 8</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutSection">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login / Register</a>
+            </li>
+
+          </ul>
+
+        
+          <a href="#btech-section" class="btn btn-start">Get Started</a>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+  </div>
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active" style="background-image: url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da');">
+      <div class="carousel-caption text-white text-center">
+        <h1>B.TECH Notes</h1>
+        <p>High-quality notes for engineering students to improve learning and performance.</p>
+        <a href="#" class="btn btn-read">Read More</a>
+      </div>
+    </div>
+
+    <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1497633762265-9d179a990aa6');">
+      <div class="carousel-caption text-white text-center">
+        <h1>BBA Notes</h1>
+        <p>Complete business notes to help you succeed in academics and career growth.</p>
+        <a href="#" class="btn btn-read">Read More</a>
+      </div>
+    </div>
+
+    <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1512820790803-83ca734da794');">
+      <div class="carousel-caption text-white text-center">
+        <h1>BCA Notes</h1>
+        <p>Structured computer application notes for all semesters with easy understanding.</p>
+        <a href="#" class="btn btn-read">Read More</a>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+
+<section class="about-section py-5" id="aboutSection">
+  <div class="container">
+    <div class="row align-items-center">
+
+      
+      <div class="col-lg-6">
+
+        <h6 class="text-primary fw-bold">ABOUT US</h6>
+
+      
+        <ul class="nav nav-tabs mt-3" id="aboutTabs" role="tablist">
+
+          <li class="nav-item">
+            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#mission">
+              Our Mission
+            </button>
+          </li>
+
+          <li class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#works">
+              How It Works
+            </button>
+          </li>
+
+          <li class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#vision">
+              Our Vision
+            </button>
+          </li>
+
+        </ul>
+
+      
+        <div class="tab-content mt-4">
+
+        
+          <div class="tab-pane fade show active" id="mission">
+            <h3 class="fw-bold">Our Mission</h3>
+            <p>
+              Our mission is to provide high-quality notes for students across all courses like B.Tech, BBA, and BCA. We aim to simplify learning and make education accessible for everyone.
+            </p>
+            <a href="#" class="btn btn-read">Learn More</a>
+          </div>
+
+    
+          <div class="tab-pane fade" id="works">
+            <h3 class="fw-bold">How It Works</h3>
+            <p>
+              Students can easily select their university and semester to access structured notes. Everything is organized to help you find the right study material quickly.
+            </p>
+            <a href="#" class="btn btn-read">Learn More</a>
+          </div>
+
+    
+          <div class="tab-pane fade" id="vision">
+            <h3 class="fw-bold">Our Vision</h3>
+            <p>
+              We aim to become the most trusted platform for academic notes and resources, helping millions of students achieve their goals.
+            </p>
+            <a href="#" class="btn btn-read">Learn More</a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 mt-4 mt-lg-0 text-center">
+        <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+             class="img-fluid rounded shadow"
+             alt="Library Image">
+      </div>
+
+    </div>
+  </div>
+</section>
+.
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+
+.section-title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-text {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    color: #555;
+}
+
+.sem-box {
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 20px;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(45deg, #4e54c8, #8f94fb) border-box;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.sem-box:hover {
+    transform: translateY(-5px);
+}
+
+.subject {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.sem-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.read-btn {
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+
+</style>
+
+</head>
+<body>
+
+<section class="py-5" id="btech-section">
+<div class="container">
+
+
+    <h2 class="section-title mb-3">B.TECH Notes</h2>
+
+    <p class="section-text mb-5">
+        Access complete B.TECH semester-wise notes designed to simplify your learning journey. 
+        These notes cover essential subjects with clear explanations, helping students prepare 
+        effectively for exams and build strong conceptual understanding across all semesters.
+    </p>
+
+
+    <div class="row g-4">
+
+        <!-- Semester Box -->
+        <!-- Repeat for 8 semesters -->
+        
+      
+        <div class="col-md-3">
+            <div class="sem-box">
+                <h5 class="sem-title">
+                    <i class="bi bi-book me-2"></i>Semester 1
+                </h5>
+
+                <div class="subject"><a href="notes/math1.pdf.pdf" download>Math-I <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Physics.pdf" download>Physics <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Programming for problem solving (PPS).pdf" download>c Programming <i class="bi bi-download"></i></a></div>
+                <p class="small mt-2">
+                  explore and gain knowledge using this subjects.
+                </p>
+
+
+              
+            
+
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+        <!-- SEM 2 -->
+        <div class="col-md-3">
+            <div class="sem-box">
+                <h5 class="sem-title">
+                    <i class="bi bi-book me-2"></i>Semester 2
+                </h5>
+
+                <div class="subject"><a href="notes/math2.pdf" download>Math-II <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Chemistry.pdf" download>Chemistry <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/BET.pdf" download>BET <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/English.pdf" download>English <i class="bi bi-download"></i></a></div>
+
+                <p class="small mt-2">
+                    Expands core technical knowledge with practical and analytical subjects.
+                </p>
+
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="sem-box">
+                <h5 class="sem-title">
+                    <i class="bi bi-book me-2"></i>Semester 3
+                </h5>
+
+                <div class="subject"><a href="notes/DSA.pdf" download>Data Structures <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Digital electronics.pdf" download>Digital Electronics <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Maths 3.pdf" download>Math-III <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/AEC.pdf" download>AEC <i class="bi bi-download"></i></a></div>
+
+                <p class="small mt-2">
+                    Introduction to programming logic and structured problem solving.
+                </p>
+
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="sem-box">
+                <h5 class="sem-title">
+                    <i class="bi bi-book me-2"></i>Semester 4
+                </h5>
+
+                <div class="subject"><a href="notes/discreate mathematics.pdf" download>Discreate Mathmetics <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/operating system" download>Operating System <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Economics.pdf" download>Economics<i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Chemistry.pdf" download>COA <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Data mining.pdf" download>DAA <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/DBMS.pdf" download>Database (DBMS) <i class="bi bi-download"></i></a></div>
+
+                <p class="small mt-2">
+                    Core computer science subjects that build system-level understanding.
+                </p>
+
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="row g-4 mt-1">
+
+        <div class="col-md-3">
+            <div class="sem-box">
+                <h5 class="sem-title">
+                    <i class="bi bi-book me-2"></i>Semester 5
+                </h5>
+
+                <div class="subject"><a href="notes/Signal and system.pdf" download>Signal and System <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/FLA complete notes 5 sem.pdf" download>Finite language Automata<i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Compiler Design 5 sem.pdf" download>Compiler Design <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Machine learning.pdf" download>Machine Learning <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Software engineering" download>Software Engineering <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/OOPS.pdf" download>Object Oriented Programming <i class="bi bi-download"></i></a></div>
+
+                <p class="small mt-2">
+                    Focus on networking concepts and software development lifecycle.
+                </p>
+
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+    
+        <div class="col-md-3">
+            <div class="sem-box">
+                <h5 class="sem-title">
+                    <i class="bi bi-book me-2"></i>Semester 6
+                </h5>
+
+                <div class="subject"><a href="notes/Data mining.pdf" download>Data Mining <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Intelligent System.pdf" download>Intelligent System<i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/CN notes.pdf" download>Computer Network <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Soft computing.pdf" download>Soft computing <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/DAUP.pdf" download>Data Analysis using Python <i class="bi bi-download"></i></a></div>
+
+                <p class="small mt-2">
+                    Advanced subjects including artificial intelligence and compilers.
+                </p>
+
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+    
+        <div class="col-md-3">
+            <div class="sem-box">
+                <h5 class="sem-title">
+                    <i class="bi bi-book me-2"></i>Semester 7
+                </h5>
+
+                <div class="subject"><a href="notes/unix and linux.pdf" download>unix and linux  <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Advanced Machine Design.pdf" download>Advanced Machine Design <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Communication skills.pdf" download>Communication skills <i class="bi bi-download"></i></a></div>
+
+                <p class="small mt-2">
+                    Industry-level skills and modern technology subjects are introduced.
+                </p>
+
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+    
+        <div class="col-md-3">
+            <div class="sem-box">
+                <h5 class="sem-title">
+                    <i class="bi bi-book me-2"></i>Semester 8
+                </h5>
+                <div class="subject">Industrial advanced Project <i class="bi bi-download"></i></div>
+                <div class="subject">Project <i class="bi bi-download"></i></div>
+                <div class="subject">Internship <i class="bi bi-download"></i></div>
+
+                <p class="small mt-2">
+                    Final semester focuses on real-world projects and practical exposure.
+                </p>
+
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section class="py-5" id="bba-section">
+<div class="container">
+
+    <h2 class="section-title mb-3">BBA Notes</h2>
+
+    <p class="section-text mb-5">
+        Explore comprehensive BBA semester-wise notes covering management, marketing, finance, and business strategies. 
+        These notes are designed to enhance conceptual clarity, improve exam preparation, and build a strong foundation 
+        in business administration across all semesters effectively.
+    </p>
+
+  
+    <div class="row g-4">
+
+      
+        <div class="col-md-4">
+            <div class="sem-box">
+                <h5 class="sem-title"><i class="bi bi-briefcase me-2"></i>Semester 1</h5>
+                <div class="subject"><a href="notes/Compiler Design 5 sem.pdf" download>Business Communication <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/CN notes.pdf" download><Principles of Mgmt <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/English.pdf" download>Accounting <i class="bi bi-download"></i></a></div>
+                <p class="small mt-2">Introduction to business fundamentals and communication skills.</p>
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+        <!-- SEM 2 -->
+        <div class="col-md-4">
+            <div class="sem-box">
+                <h5 class="sem-title"><i class="bi bi-briefcase me-2"></i>Semester 2</h5>
+                <div class="subject"><a href="notes/Compiler Design 5 sem.pdf" download>Business Law <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Economics.pdf" download>Economics <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Economics.pdf" download>HRM <i class="bi bi-download"></i></a></div>
+                <p class="small mt-2">Focus on legal, economic, and human resource basics.</p>
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+        <!-- SEM 3 -->
+        <div class="col-md-4">
+            <div class="sem-box">
+                <h5 class="sem-title"><i class="bi bi-briefcase me-2"></i>Semester 3</h5>
+                <div class="subject"><a href="notes/Economics.pdf" download>Marketing Mgmt <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Economics.pdf" download>Financial Mgmt <i class="bi bi-download"></i></a></div>
+                <p class="small mt-2">Understanding core business operations and finance.</p>
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row g-4 mt-1">
+
+        <!-- SEM 4 -->
+        <div class="col-md-4">
+            <div class="sem-box">
+                <h5 class="sem-title"><i class="bi bi-briefcase me-2"></i>Semester 4</h5>
+                <div class="subject"><a href="notes/Economics.pdf" download>Operations Mgmt <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Economics.pdf" download>Business Analytics <i class="bi bi-download"></i></a></div>
+                <p class="small mt-2">Advanced topics in operations and analytical skills.</p>
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+        <!-- SEM 5 -->
+        <div class="col-md-4">
+            <div class="sem-box">
+                <h5 class="sem-title"><i class="bi bi-briefcase me-2"></i>Semester 5</h5>
+                <div class="subject"><a href="notes/Economics.pdf" download>Entrepreneurship <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Economics.pdf" download>Retail Mgmt <i class="bi bi-download"></i></a></div>
+                <p class="small mt-2">Developing entrepreneurial mindset and retail knowledge.</p>
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+        <!-- SEM 6 -->
+        <div class="col-md-4">
+            <div class="sem-box">
+                <h5 class="sem-title"><i class="bi bi-briefcase me-2"></i>Semester 6</h5>
+                <div class="subject"><a href="notes/Economics.pdf" download>Strategic Mgmt <i class="bi bi-download"></i></a></div>
+                <div class="subject">Project Work <i class="bi bi-download"></i></div>
+                <p class="small mt-2">Final semester focuses on strategy and practical exposure.</p>
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section class="py-5" id="bca-section">
+<div class="container">
+
+    <h2 class="section-title mb-3">BCA Notes</h2>
+
+    <p class="section-text mb-5">
+        Access structured BCA notes covering programming, databases, networking, and modern technologies. 
+        These notes are curated to strengthen coding skills, improve technical understanding, and help students 
+        excel in exams while preparing for real-world IT industry challenges effectively.
+    </p>
+
+    <!-- Row 1 -->
+    <div class="row g-4">
+
+        <!-- SEM 1 -->
+        <div class="col-md-4">
+            <div class="sem-box">
+                <h5 class="sem-title"><i class="bi bi-laptop me-2"></i>Semester 1</h5>
+                <div class="subject">Computer Basics <i class="bi bi-download"></i></div>
+                <div class="subject">C Programming <i class="bi bi-download"></i></div>
+                <p class="small mt-2">Introduction to computers and programming basics.</p>
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+        <!-- SEM 2 -->
+        <div class="col-md-4">
+            <div class="sem-box">
+                <h5 class="sem-title"><i class="bi bi-laptop me-2"></i>Semester 2</h5>
+                <div class="subject"><a href="notes/DSA.pdf" download>Data Structures <i class="bi bi-download"></i></a></div>
+                <div class="subject"><a href="notes/Compiler Design 5 sem.pdf" download>DBMS <i class="bi bi-download"></i></a></div>
+                <p class="small mt-2">Core programming and database management concepts.</p>
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+        <!-- SEM 3 -->
+        <div class="col-md-4">
+            <div class="sem-box">
+                <h5 class="sem-title"><i class="bi bi-laptop me-2"></i>Semester 3</h5>
+                <div class="subject"><a href="notes/OOPS.pdf" download>OOP <i class="bi bi-download"></i></a></div>
+                <div class="subject">Web Dev <i class="bi bi-download"></i></div>
+                <p class="small mt-2">Object-oriented programming and web technologies.</p>
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row g-4 mt-1">
+
+        <!-- SEM 4 -->
+        <div class="col-md-4">
+            <div class="sem-box">
+                <h5 class="sem-title"><i class="bi bi-laptop me-2"></i>Semester 4</h5>
+                <div class="subject"><a href="notes/OOPS.pdf" download>Operating System <i class="bi bi-download"></i></a></div>
+                <div class="subject">Software Engg <i class="bi bi-download"></i></div>
+                <p class="small mt-2">System-level programming and software development lifecycle.</p>
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+        <!-- SEM 5 -->
+        <div class="col-md-4">
+            <div class="sem-box">
+                <h5 class="sem-title"><i class="bi bi-laptop me-2"></i>Semester 5</h5>
+                <div class="subject">Computer Networks <i class="bi bi-download"></i></div>
+                <div class="subject">Python <i class="bi bi-download"></i></div>
+                <p class="small mt-2">Networking and modern programming language concepts.</p>
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+        <!-- SEM 6 -->
+        <div class="col-md-4">
+            <div class="sem-box">
+                <h5 class="sem-title"><i class="bi bi-laptop me-2"></i>Semester 6</h5>
+                <div class="subject">Project <i class="bi bi-download"></i></div>
+                <div class="subject">Internship <i class="bi bi-download"></i></div>
+                <p class="small mt-2">Final semester focused on real-world application and projects.</p>
+                <button class="btn btn-primary read-btn mt-2">Read More</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</section>
+
+<!-- Login/Register Section -->
+<section class="auth-cta-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Left Side - Info -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="auth-cta-title">Join NOTEBRIDGE Today</h2>
+        <p class="auth-cta-text">
+          Access high-quality notes for your courses, track your progress, and excel in your studies with our comprehensive note collection across all universities and semesters.
+        </p>
+        <ul class="auth-cta-benefits">
+          <li><i class="bi bi-check-circle"></i> Comprehensive semester-wise notes</li>
+          <li><i class="bi bi-check-circle"></i> Multiple universities supported</li>
+          <li><i class="bi bi-check-circle"></i> Easy-to-understand content</li>
+          <li><i class="bi bi-check-circle"></i> 24/7 Support available</li>
+        </ul>
+      </div>
+
+      <!-- Right Side - Form -->
+      <div class="col-lg-6">
+        <div class="auth-cta-card">
+
+          <!-- Login Form -->
+          <div id="ctaLoginForm">
+            <h3 class="text-center mb-4">Login</h3>
+
+            <input type="text" class="form-control mb-3" placeholder="Full Name">
+
+            <select class="form-select mb-3">
+              <option selected disabled>Select University</option>
+              <option>MDU</option>
+              <option>YMCA</option>
+              <option>KUK</option>
+              <option>GJUST</option>
+              <option>CCSHAU</option>
+            </select>
+
+            <select class="form-select mb-3">
+              <option selected disabled>Select Semester</option>
+              <option>Semester 1</option>
+              <option>Semester 2</option>
+              <option>Semester 3</option>
+              <option>Semester 4</option>
+              <option>Semester 5</option>
+              <option>Semester 6</option>
+              <option>Semester 7</option>
+              <option>Semester 8</option>
+            </select>
+
+            <input type="email" class="form-control mb-3" placeholder="Email">
+            <input type="password" class="form-control mb-3" placeholder="Password">
+
+            <button class="btn btn-primary w-100 mb-3">Login</button>
+
+            <p class="text-center">
+              Don't have an account?
+              <span class="auth-toggle" onclick="toggleCtaForm()">Register here</span>
+            </p>
+          </div>
+
+          <!-- Register Form -->
+          <div id="ctaRegisterForm" style="display:none;">
+            <h3 class="text-center mb-4">Register</h3>
+
+            <input type="text" class="form-control mb-3" placeholder="First Name">
+            <input type="text" class="form-control mb-3" placeholder="Last Name">
+
+            <select class="form-select mb-3">
+              <option selected disabled>Select University</option>
+              <option>MDU</option>
+              <option>YMCA</option>
+              <option>KUK</option>
+              <option>GJUST</option>
+              <option>CCSHAU</option>
+            </select>
+
+            <select class="form-select mb-3">
+              <option selected disabled>Select Semester</option>
+              <option>Semester 1</option>
+              <option>Semester 2</option>
+              <option>Semester 3</option>
+              <option>Semester 4</option>
+              <option>Semester 5</option>
+              <option>Semester 6</option>
+              <option>Semester 7</option>
+              <option>Semester 8</option>
+            </select>
+
+            <input type="email" class="form-control mb-3" placeholder="Email">
+            <input type="password" class="form-control mb-3" placeholder="Password">
+            <input type="password" class="form-control mb-3" placeholder="Confirm Password">
+
+            <button class="btn btn-primary w-100 mb-3">Register</button>
+
+            <p class="text-center">
+              Already have an account?
+              <span class="auth-toggle" onclick="toggleCtaForm()">Login here</span>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer py-5">
+  <div class="container">
+    <div class="row mb-4">
+      <!-- About Column -->
+      <div class="col-md-3 mb-4">
+        <h5 class="footer-title">
+          <i class="bi bi-book"></i> NOTEBRIDGE
+        </h5>
+        <p class="footer-text">
+          Your trusted platform for high-quality academic notes across B.TECH, BBA, and BCA courses.
+        </p>
+        <div class="social-links">
+          <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-3 mb-4">
+        <h5 class="footer-title">Quick Links</h5>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">B.TECH Notes</a></li>
+          <li><a href="#">BBA Notes</a></li>
+          <li><a href="#">BCA Notes</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Universities -->
+      <div class="col-md-3 mb-4">
+        <h5 class="footer-title">Universities</h5>
+        <ul class="footer-links">
+          <li><a href="#">MDU</a></li>
+          <li><a href="#">YMCA</a></li>
+          <li><a href="#">KUK</a></li>
+          <li><a href="#">GJUST</a></li>
+          <li><a href="#">CCSHAU</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact & Support -->
+      <div class="col-md-3 mb-4">
+        <h5 class="footer-title">Contact Us</h5>
+        <ul class="footer-contact">
+          <li>
+            <i class="bi bi-envelope"></i>
+            <a href="mailto:info@notebridge.com">info@notebridge.com</a>
+          </li>
+          <li>
+            <i class="bi bi-telephone"></i>
+            <a href="tel:+91-XXXXXXXXXX">+91-9667093447</a>
+          </li>
+          <li>
+            <i class="bi bi-geo-alt"></i>
+            <span>India</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <hr class="footer-divider">
+
+    <!-- Bottom Footer -->
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p class="footer-bottom-text">
+          &copy; 2026 NOTEBRIDGE. All rights reserved.
+        </p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <ul class="footer-bottom-links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Contact Support</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Chatbox Widget -->
+<div class="chatbox-container" id="chatboxContainer">
+  <div class="chatbox-header">
+    <h5>NOTEBRIDGE Support</h5>
+    <button class="chatbox-close" onclick="toggleChatbox()">
+      <i class="bi bi-x"></i>
+    </button>
+  </div>
+  <div class="chatbox-messages" id="chatboxMessages">
+    <div class="message bot-message">
+      <p>Hello! How can we help you today?</p>
+    </div>
+  </div>
+  <div class="chatbox-input">
+    <input type="text" id="chatboxInput" placeholder="Type your message..." />
+    <button onclick="sendMessage()">
+      <i class="bi bi-send"></i>
+    </button>
+  </div>
+</div>
+
+<button class="chatbox-toggle" id="chatboxToggle" onclick="toggleChatbox()">
+  <i class="bi bi-chat-dots"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
